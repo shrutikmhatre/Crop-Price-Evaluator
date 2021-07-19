@@ -1,0 +1,164 @@
+<html>
+<head>
+	<style>
+.dropbtn {
+  
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: #16a085;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  
+  min-width: 105px;
+  background-color: black;
+  text-align: center;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  height: 55px;
+  align-self: center;
+  fon
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: mediumseagreen}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover 
+</style>
+<meta name="viewport" http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>FARMER HELP PORTAL</title>
+
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+</head>
+<body>
+
+<div id="wrapper">
+	<div id="menu-wrapper">
+		<div id="menu" class="container">
+			<ul>
+				<li class="current_page_item"><a href="index.html">Homepage</a></li>
+
+				
+				<li><a href="#">Government Schemes</a></li>
+				<li><a href="#">Latest Crop Prices</a></li>
+				<li>
+				<div class="dropdown">
+                <button class="dropbtn">Registration</button>
+                  <div class="dropdown-content">
+                     <a href="form1.html">Farmer</a>
+                     <a href="#">Buyer</a>
+                     
+                  </div>
+                 </div>
+				</li>
+				<li><a href="#">Calculate Crop Price</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">About</a></li>
+			</ul>
+		</div>
+
+	<div id="header-wrapper" style="background-image: url('http://localhost/dashboard/BE%20Project/pic01.jpg')">
+		<div id="header" class="container">
+			<div id="logo">
+				<h1 style="padding-left: 200px; color: white">BUYERS PORTAL</h1>
+				
+			</div>
+		</div>
+	</div>
+	</div>
+	<legend style="font-size: 35px;">Buyer Registration</legend><br>
+<form onsubmit="on">
+		
+		<table>
+			<tr><td>Name(As Per Aadhar Card):</td><td><input type="text"></td></tr>
+
+				<tr><td>Father/Husband Name:</td><td><input type="text"></td></tr>
+
+				<tr><td>Select Gender:</td>
+				<td>	
+				<select>
+					<option value="gender">Select Gender</option>
+	                <option value="gender">Male</option>
+	                <option value="gender">Female</option>
+	                <option value="gender">Other</option>
+				</select>
+				<tr><td>Aadhar Card no:</td><td><input type="text"></td></tr>
+
+				<tr><td>Mobile no:</td><td><input type="number"></td></tr>
+			
+				
+			    <tr><td>Address:</td><td><input type="text"></td></tr>
+			
+			
+				<tr><td>Select State:</td>
+					<td>
+				<select>
+				<option value="">------------Select State------------</option>
+				<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+				<option value="Andhra Pradesh">Andhra Pradesh</option>
+				<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+				<option value="Assam">Assam</option>
+				<option value="Bihar">Bihar</option>
+				<option value="Chandigarh">Chandigarh</option>
+				<option value="Chhattisgarh">Chhattisgarh</option>
+				<option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+				<option value="Daman and Diu">Daman and Diu</option>
+				<option value="Delhi">Delhi</option>
+				<option value="Goa">Goa</option>
+				<option value="Gujarat">Gujarat</option>
+				<option value="Haryana">Haryana</option>
+				<option value="Himachal Pradesh">Himachal Pradesh</option>
+				<option value="Jammu and Kashmir">Jammu and Kashmir</option>
+				<option value="Jharkhand">Jharkhand</option>
+				<option value="Karnataka">Karnataka</option>
+				<option value="Kerala">Kerala</option>
+				<option value="Lakshadweep">Lakshadweep</option>
+				<option value="Madhya Pradesh">Madhya Pradesh</option>
+				<option value="Maharashtra">Maharashtra</option>
+				<option value="Manipur">Manipur</option>
+				<option value="Meghalaya">Meghalaya</option>
+				<option value="Mizoram">Mizoram</option>
+				<option value="Nagaland">Nagaland</option>
+				<option value="Orissa">Orissa</option>
+				<option value="Pondicherry">Pondicherry</option>
+				<option value="Punjab">Punjab</option>
+				<option value="Rajasthan">Rajasthan</option>
+				<option value="Sikkim">Sikkim</option>
+				<option value="Tamil Nadu">Tamil Nadu</option>
+				<option value="Tripura">Tripura</option>
+				<option value="Uttaranchal">Uttaranchal</option>
+				<option value="Uttar Pradesh">Uttar Pradesh</option>
+				<option value="West Bengal">West Bengal</option>
+			</select></td>
+				</tr>
+				<tr><td>Select District:</td><td><input type="text" name="district"></td></tr>
+
+				<tr><td>Pin Code:</td><td><input type="number" name="pin"></td></tr>
+				<tr><td>Enter Password:</td><td><input type="Password" name="Password"></td></tr>
+				<tr>
+    		<td></td><td>
+          <button>Submit</button>
+  
+    </td></tr>
+		</table>
+		
+	</form>

@@ -1,0 +1,122 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+.dropbtn {
+  
+  color: white;
+  padding: 16px;
+  font-size: 0.80px;
+  border: none;
+  cursor: pointer;
+  background-color: #16a085;
+
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+  height: 80px;
+}
+
+.dropdown-content {
+  display: none;
+ position: absolute;
+  
+  min-width: 107px;
+  background-color: black;
+  text-align: center;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  height: 55px;
+  padding-top: 20px;
+  
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: mediumseagreen}
+
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+table, td, tr {
+  border: 1px solid black;
+  padding: 23px;
+}
+table{
+	border-collapse: collapse;
+}
+th{
+	padding: 30px;
+}
+
+</style>
+
+<title>LOGIN</title>
+
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" type="text/css" href="login.css">
+
+</head>
+<body>
+	<div style="background-image: url('http://localhost/dashboard/BE%20Project/main.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="logo">
+				
+				
+			</div>
+		</div>
+	</div>
+</div >
+	<div id="wrapper">
+	<div id="menu-wrapper">
+		<div id="menu">
+			<ul>
+				<li class="current_page_item"><a href="index1.html">Homepage</a></li>
+
+				
+				<li><a href="#">Government Schemes</a></li>
+				<li><a href="#">Latest Crop Prices</a></li>
+				<li>
+				<div class="dropdown">
+                <button class="dropbtn">REGISTRATION</button>
+                  <div class="dropdown-content">
+                     <a href="form1.html">Farmer</a>
+                     <a href="buyer.html">Buyer</a>
+                     
+                  </div>
+                 </div>
+				</li>
+				<li><a href="#">Calculate Crop Price</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="login.html">login</a></li>
+				
+			</ul>
+		</div>
+	<link rel="stylesheet" type="text/css" href="login.css">
+     <br><br><br>
+	<center>
+	<table>
+		<tr class="back"><th>LOGIN<br>
+			Select login type:
+		    </th></tr>
+			<tr class="log"><td>
+				<a href="login1.html">FARMER</a>
+        <tr class="log"><td>
+				<a href="login1.html">BUYER</a>
+
+		
+
+	</table>
+	</center>
+</body>
+</html>
